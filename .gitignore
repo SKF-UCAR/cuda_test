@@ -1,0 +1,32 @@
+# Build artifacts
+*.o
+*.so
+*.a
+*.exe
+*.dll
+*.lib
+
+# CUDA specific
+*.cu.o
+*.cuobj
+*.cubin
+*.ptx
+*.fatbin
+*.gpu
+
+# Temporary files
+*~
+*.swp
+*.swo
+*.swpx
+*.bak
+*.tmp
+*.d
+*.ilk
+*.pdb
+
+# Directories
+build/
+bin/
+Debug/
+Release/
